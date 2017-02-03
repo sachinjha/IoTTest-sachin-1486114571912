@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoTTest-sachin
+  host: IoTTest-sachin
+  disk_quota: 1024M
+  services:
+  - IoTTest-sachin-cloudantNoSQLDB
+  - IoTTest-sachin-iotf-service
